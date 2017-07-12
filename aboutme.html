@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <style>
-p.dotted {border-style: dotted;}
+p.dotted {border-style: dotted;padding:15px;}
 p.dashed {border-style: dashed;}
 p.solid {border-style: solid;}
 p.double {border-style: double;padding:15px;}
@@ -13,6 +13,13 @@ p.none {border-style: none;}
 p.hidden {border-style: hidden;}
 p.mix {border-style: dotted dashed solid double;}
 
+table, th, td {
+    border: 1px dotted black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 10px;
+
 </style>
 
 <body style="background-color:lavender;font-family:Courier">
@@ -22,9 +29,31 @@ p.mix {border-style: dotted dashed solid double;}
 <h3>About me:</h3>
 <p class="double" style=text-indent:30px > 
 
-	I am a 17 year old angsty teenage girl going into her senior year of highschool ready to collapse at the idea of going to college :) I love <b>everything</b> human related; sociology, psychology, philosophy, you need me, I'm your girl. 
+	I am a 17 year old angsty teenage girl going into her senior year of highschool ready to collapse at the idea of going to college :) I love <b>everything</b> human related: sociology, psychology, philosophy, you need me, I'm your girl.
 
 </p>
+
+<h3> What do I like? </h3>
+<table style="width:100%">
+  <tr>
+    <th>Yums</th>
+    <th>Yucks</th> 
+  </tr>
+  <tr>
+    <td>Half Baked Ben and Jerrys Ice Cream</td>
+    <td>Mangos</td>
+  </tr>
+  <tr>
+    <td>American Horror Story</td>
+    <td> The moment my hair tie snaps after the 3rd wrap</td>
+  </tr>
+  <tr>
+    <td>Baked Hashbrowns from Trader Joes with thin pesto layer on top (recommended) </td>
+    <td>Burnt cookies</td>
+  </tr>
+</table>
+
+
 
 </body>
 </html>
